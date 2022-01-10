@@ -15,7 +15,10 @@ export default function Hero() {
       </div>
       <h1> Hi, I'm Martin Kyalo</h1>
       <p>
-        I blog about web development -especially on both frontend and backend
+        I blog about web development -especially on
+        <span>
+          <b>Full Stack Web and Mobile App Development</b>
+        </span>
         frameworks and technologies like React, Angular, Express, MongoDB and
         NextJS.
       </p>
