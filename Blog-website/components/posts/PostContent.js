@@ -1,4 +1,4 @@
-import React from "react";
+import ReactMarkdown from "react-markdown";
 import PostHeader from "./PostHeader";
 import classes from "./PostContent.module.css";
 
@@ -15,7 +15,7 @@ export default function PostContent() {
   return (
     <article className={classes.content}>
       <PostHeader title={samplePost.title} image={imagePath} />
-      {samplePost.content}
+      <ReactMarkdown>{samplePost.content}</ReactMarkdown>
     </article>
   );
 }
