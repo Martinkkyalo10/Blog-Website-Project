@@ -1,0 +1,24 @@
+{
+  "name": "nextjs-course",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Martinkkyalo10/Blog-Website-Project",
+  "private": true,
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "gray-matter": "^4.0.2",
+    "mongodb": "^3.6.4",
+    "next": "^12.2.3",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-markdown": "^5.0.3",
+    "react-syntax-highlighter": "^15.4.3"
+  }
+}
